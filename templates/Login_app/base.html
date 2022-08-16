@@ -9,19 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ Title }}</title>
 </head>
+{#style="background-color: #a3c3ef;"#}
 <body>
-
-    <nav class="navbar" style="background-color: #a3c3ef;">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="{% url 'Login_app:index' %}">Home</a>
-            </li>
-        </ul>
-        </div>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'Login_app:index' %}">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="{% url 'Login_app:register' %}">Register</a>
+                </li>
+
+            </ul>
     </nav>
 
-    <div class="container">
+    <div class="container" style="padding-top: 20px">
         {% block body_block %}
             
         {% endblock %}

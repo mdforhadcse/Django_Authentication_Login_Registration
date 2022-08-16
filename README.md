@@ -23,3 +23,25 @@ Go to admin.py of your app folder and write
 
     # Register your models here.
     admin.site.register(UserInfo)
+
+### Creating django form
+To make a form in our django application, django provide us built in facility make it easy.
+First we create forms.py in our application folder and write following codes:
+
+    from django import forms
+    from django.contrib.auth.models import User
+    from Login_app.models import UserInfo
+
+
+    class UserForm(forms.ModelForm):
+        password = forms.CharField(widget=forms.PasswordInput)
+
+        class Meta:
+            model = User
+            fields = ('username', 'email', 'password')
+
+
+    class UserInfoFrom(forms.ModelForm):
+        class Meta:
+            model = UserInfo
+            fields = ('facebook_id', 'profile_picture')
