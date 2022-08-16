@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c2b84f-94c3-4436-a6d8-5c8bf6067837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Login_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a0fdd4c-c9d2-46ae-be7e-e7c631cd0007.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a0fdd4c-c9d2-46ae-be7e-e7c631cd0007.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Authentication_Login_Registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Authentication_Login_Registration/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Login_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_Authentication_Login_Registration/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Authentication_Login_Registration/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Login_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Login_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Login_app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Login_app/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,8 @@
       <updated>1659958329454</updated>
       <workItem from="1659958335047" duration="135000" />
       <workItem from="1660022134364" duration="4132000" />
-      <workItem from="1660130254579" duration="2260000" />
+      <workItem from="1660130254579" duration="5316000" />
+      <workItem from="1660614220148" duration="5999000" />
     </task>
     <servers />
   </component>
